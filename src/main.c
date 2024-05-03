@@ -12,7 +12,7 @@ int main() {
   gpio_e->odr.l = 0xFF;
   delay_milli(stk, 1);
   gpio_e->odr.l = 0x00;
-  delay_milli(stk, 100000);
+  delay_milli(stk, 10000);
   gpio_e->odr.l = 0xF0;
 
   return 0;
